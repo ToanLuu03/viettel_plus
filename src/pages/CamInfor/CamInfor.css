@@ -1,0 +1,25 @@
+.product-card {
+    text-align: center;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-image {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.product-name {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.product-price {
+    font-size: 1.25rem;
+    color: #ff4d4f;
+}

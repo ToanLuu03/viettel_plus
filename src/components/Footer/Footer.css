@@ -1,0 +1,131 @@
+.internet-infor {
+    background-color: #d9001b;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+}
+
+.info-section h2,
+.app-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.info-section h3 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.button-group {
+    margin-top: 20px;
+}
+
+.custom-button {
+    background-color: #fff;
+    color: #d9001b;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.app-section {
+    margin-top: 40px;
+}
+
+.app-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.phone-image {
+    max-width: 150px;
+    height: auto;
+}
+
+.store-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+    img {
+        width: 50px;
+        border-radius: 20%;
+    }
+}
+
+.store-icon {
+    width: 120px;
+    height: auto;
+}
+
+.footer-container {
+    background-color: #f0f2f5;
+    padding: 40px;
+    border-top: 2px solid #e30613;
+    margin-top: 40px;
+}
+
+.footer-left {
+    text-align: left;
+    margin-bottom: 20px;
+    color: #333;
+
+    span {
+        font-weight: bold;
+        color: #ff4d4f;
+        text-decoration: none;
+    }
+
+    .p4 {
+        font-size: 10px;
+    }
+
+    .p3 {
+        font-size: 15px;
+    }
+}
+
+.footer-left h3 {
+    color: #e30613;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.footer-left p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.footer-right {
+    text-align: left;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.footer-right .ant-form-item {
+    margin-bottom: 16px;
+}
+
+.footer-right .ant-form-item label {
+    font-weight: bold;
+}
+
+.footer-right .ant-input,
+.footer-right .ant-input-textarea {
+    border-radius: 4px;
+}
+
+.footer-right .ant-btn-primary {
+    background-color: #e30613;
+    border-color: #e30613;
+    width: 100%;
+}
+
+.footer-right .ant-btn-primary:hover {
+    background-color: #cc0510;
+    border-color: #cc0510;
+}

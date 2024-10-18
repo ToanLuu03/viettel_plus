@@ -1,0 +1,44 @@
+.television-container {
+    text-align: center;
+}
+
+.package-card {
+    background-color: #f0f2f5;
+    border-radius: 8px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.package-card .ant-card-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.package-card .television-price {
+    font-size: 30px;
+}
+
+.package-card p {
+    font-size: 20px;
+}
+
+.package-card ul {
+    flex-grow: 1;
+}
+
+.package-card .ant-card-head {
+    background-color: #e30613;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.package-card a {
+    color: #e30613;
+    font-weight: bold;
+    margin-top: auto;
+    align-self: flex-start;
+}

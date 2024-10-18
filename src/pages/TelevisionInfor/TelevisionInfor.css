@@ -1,0 +1,7 @@
+.custom-card {
+    border-radius: 8px;
+}
+
+.custom-card .ant-card-body {
+    padding: 16px;
+}

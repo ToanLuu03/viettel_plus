@@ -1,0 +1,110 @@
+.section-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ff4d4f;
+}
+
+.inter1 {
+    padding-top: 100px;
+}
+
+.promotions-section,
+.packages-section {
+    margin: 40px 0;
+}
+
+.red-button {
+    background-color: #ff4d4f;
+    border-color: #ff4d4f;
+    color: white;
+}
+
+.red-button:hover {
+    background-color: #d9363e;
+    border-color: #d9363e;
+}
+
+.ant-card {
+    background-color: #fff7f7;
+}
+
+.ant-card-cover img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.subscription-container {
+    padding: 20px;
+    background: linear-gradient(to right, #f06565, #f1a1a1);
+}
+
+.subscription-card {
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+.subscription-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f5222d;
+}
+
+.subscription-price {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.subscription-details {
+    text-align: left;
+    margin: 10px 0;
+    height: 80px;
+    overflow-y: auto;
+}
+
+.subscribe-button {
+    background-color: #f5222d;
+    color: white;
+    width: 100%;
+    border: none;
+}
+
+.subscribe-button:hover {
+    background-color: #d40f0f;
+}
+
+
+.fqa {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+    h2 {
+        color: red;
+        margin-bottom: 20px;
+    }
+
+    .ant-collapse-header {
+        font-weight: bold;
+        font-size: 1.1rem;
+    }
+
+    .ant-collapse-content {
+        background-color: #ffffff;
+        padding: 15px;
+        border-radius: 5px;
+    }
+
+    .mt-4 {
+        margin-top: 1.5rem;
+    }
+
+    p {
+        line-height: 1.6;
+        color: #333;
+    }
+}
